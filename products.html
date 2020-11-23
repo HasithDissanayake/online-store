@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body{
+            background-color: rgb(231, 188, 210);
+        }
+        
+        </style>
+
+    
+    <meta charset="UTF-20">
+    <meta name="viewport" content="width=device-width, initial-scale=2">
+    <title>Products</title>
+</head>
+<script>
+    var products = []; //creates an array named 'products'
+
+
+
+    function search() {   //define function to search
+
+        
+
+            search.push(p);
+            alert(x + " got it");
+            
+            
+
+            }
+        
+        
+
+    
+
+        document.getElementById('shwrec').innerHTML = table;
+
+    }
+</script>
+ 
+
+
+<body>
+
+    <h1 style="color: rgb(226, 155, 49);">Products</h1>
+    <fieldset>
+        
+
+        <label>clothing:</label><br>
+        <select id="clothing">
+            <option value></option>
+            <option value="men">men</option>
+            <option value="women">women</option>
+            <option value="kids">kids</option>
+            <option value="outdoor">outdoor</option>
+        </select>
+        <br>
+
+        <label>food:</label><br>
+        <select id="food">
+            <option value></option>
+            <option value="breakfast">breakfast</option>
+            <option value="lunch">lunch</option>
+            <option value="spicies">spicies</option>
+            <option value="desserts">desserts</option>
+            <option value="dinner">dinner</option>
+        </select>
+        <br>
+
+        <label>stationery:</label><br>
+        <select id="stationery">
+            <option value></option>
+            <option value="home">home</option>
+            <option value="garden">garden</option>
+            <option value="school">school</option>
+            <option value="sports">sports</option>
+            <option value="other">other</option>
+        </select>
+        <br>
+        
+
+        <label>electronic:</label><br>
+        <select id="electronic">
+            <option value></option>
+            <option value="household">household</option>
+            <option value="working">working</option>
+            
+        </select>
+
+        <br>
+        <br>
+        <button id="search" onclick="search()">filter</button>
+        <button onclick="shwstd()">Show Records</button>
+
+    </fieldset>
+
+    <div class="color">
+        
+
+    </div>
+    
+
+</body>
+
+
+</html>
